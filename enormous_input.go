@@ -8,8 +8,7 @@ import "strconv"
 func main() {
   var divisor int;
   var inputs int;
-  var total int;
-  total =0;
+  total :=0
   fmt.Scanf("%d %d",&inputs, &divisor)
   scanner := bufio.NewReader(os.Stdin)
   for input:= 0;input <inputs;input++ {
